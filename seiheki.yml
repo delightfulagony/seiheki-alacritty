@@ -1,0 +1,109 @@
+# Copyright (c) 2022-present delightfulagony<agony@disroot.org>
+
+# Project:    Seiheki Alacritty
+# Version:    0.1.0
+# References:
+#   https://github.com/alacritty/alacritty
+
+color_schemes:
+  light: &light
+    primary:
+      background: '#efefef'
+      foreground: '#1f1f1f'
+      dim_foreground: '#cccccc'
+      brigth_foreground: '#474747'
+
+    cursor:
+      text: '#1f1f1f'
+      cursor: '#96c5bc'
+
+    vi_mode_cursor:
+      text: '#1f1f1f'
+      cursor: '#96c5bc'
+
+    selection:
+      text: '#1f1f1f'
+      cursor: '#96c5bc'
+
+    search:
+      focused_match:
+        foreground: '#efefef'
+        background: '#3a6960'
+      matches:
+        foreground: '#3a6960'
+        background: '#cccccc'
+      bar:
+        foreground: '#efefef'
+        background: '#3a6960'
+
+    normal:
+      black: '#1f1f1f'
+      red: '#693a43'
+      green: '#3a6949'
+      yellow: '#69493a'
+      blue: '#3a5b69'
+      magenta: '#693a5b'
+      cyan: '#3a6960'
+      white: '#cccccc'
+
+    bright:
+      black: '#474747'
+      red: '#c5969F'
+      green: '#96c5a5'
+      yellow: '#c5a596'
+      blue: '#96b7c5'
+      magenta: '#c596b7'
+      cyan: '#96c5bc'
+      white: '#efefef'
+
+  dark: &dark
+    primary:
+      background: '#1f1f1f'
+      foreground: '#efefef'
+      dim_foreground: '#474747'
+      brigth_foreground: '#cccccc'
+
+    cursor:
+      text: '#efefef'
+      cursor: '#3a6960'
+
+    vi_mode_cursor:
+      text: '#efefef'
+      cursor: '#3a6960'
+
+    selection:
+      text: '#efefef'
+      background: '#3a6960'
+
+    search:
+      focused_match:
+        foreground: '#efefef'
+        background: '#3a6960'
+      matches:
+        foreground: '#3a6960'
+        background: '#cccccc'
+      bar:
+        foreground: '#efefef'
+        background: '#3a6960'
+
+    normal:
+      black: '#474747'
+      red: '#C5969F'
+      green: '#96C5A5'
+      yellow: '#C5A596'
+      blue: '#96B7C5'
+      magenta: '#C596B7'
+      cyan: '#96C5BC'
+      white: '#efefef'
+
+    bright:
+      black: '#1f1f1f'
+      red: '#693a43'
+      green: '#3a6949'
+      yellow: '#69493a'
+      blue: '#3a5b69'
+      magenta: '#693a5b'
+      cyan: '#3a6960'
+      white: '#cccccc'
+
+colors: *light
