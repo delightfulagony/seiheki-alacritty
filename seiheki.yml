@@ -32,7 +32,7 @@ color_schemes:
       matches:
         foreground: '#3a6960'
         background: '#cccccc'
-      bar:
+      footer_bar:
         foreground: '#efefef'
         background: '#3a6960'
 
@@ -82,7 +82,7 @@ color_schemes:
       matches:
         foreground: '#3a6960'
         background: '#cccccc'
-      bar:
+      footer_bar:
         foreground: '#efefef'
         background: '#3a6960'
 
